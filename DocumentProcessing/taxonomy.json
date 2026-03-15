@@ -1,0 +1,1445 @@
+﻿{
+  "DataContractVersion": "1.1",
+  "DocumentTypes": [
+    {
+      "Connections": [],
+      "DocumentTypeId": "AcmeCore.FinanceDepartment.Invoice",
+      "Group": "AcmeCore",
+      "Category": "FinanceDepartment",
+      "Name": "Invoice",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "AcmeCore.FinanceDepartment.Invoice.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "AcmeCore.FinanceDepartment.Invoice.InvoiceNumber",
+          "FieldName": "InvoiceNumber",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.FinanceDepartment.Invoice.TotalDue",
+          "FieldName": "TotalDue",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.FinanceDepartment.Invoice.InvoiceDate",
+          "FieldName": "InvoiceDate",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ],
+      "Metadata": [
+        {
+          "Key": "OCRConfidenceThreshold",
+          "Value": "0.9"
+        },
+        {
+          "Key": "DateDisplayFormat",
+          "Value": "yyyy-MM-dd"
+        },
+        {
+          "Key": "NumberDisplayFormat",
+          "Value": "{\"DecimalSeparator\":\".\",\"ThousandsSeparator\":\"\"}"
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "AcmeCore.FinanceDepartment.PurchaseOrder",
+      "Group": "AcmeCore",
+      "Category": "FinanceDepartment",
+      "Name": "Purchase Order",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "AcmeCore.FinanceDepartment.PurchaseOrder.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "AcmeCore.FinanceDepartment.PurchaseOrder.PONumber",
+          "FieldName": "PONumber",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.FinanceDepartment.PurchaseOrder.PODate",
+          "FieldName": "PODate",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.FinanceDepartment.PurchaseOrder.DeliveryDate",
+          "FieldName": "DeliveryDate",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.FinanceDepartment.PurchaseOrder.Department",
+          "FieldName": "Department",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.FinanceDepartment.PurchaseOrder.RequestedBy",
+          "FieldName": "RequestedBy",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#27e3af"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.FinanceDepartment.PurchaseOrder.ApprovedBy",
+          "FieldName": "ApprovedBy",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#4e22cf"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ],
+      "Metadata": [
+        {
+          "Key": "OCRConfidenceThreshold",
+          "Value": "0.9"
+        },
+        {
+          "Key": "DateDisplayFormat",
+          "Value": "yyyy-MM-dd"
+        },
+        {
+          "Key": "NumberDisplayFormat",
+          "Value": "{\"DecimalSeparator\":\".\",\"ThousandsSeparator\":\"\"}"
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "AcmeCore.FinanceDepartment.Receipt",
+      "Group": "AcmeCore",
+      "Category": "FinanceDepartment",
+      "Name": "Receipt",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "AcmeCore.FinanceDepartment.Receipt.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "AcmeCore.FinanceDepartment.Receipt.ReceiptID",
+          "FieldName": "ReceiptID",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.FinanceDepartment.Receipt.CashierName",
+          "FieldName": "CashierName",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.FinanceDepartment.Receipt.CustomerName",
+          "FieldName": "CustomerName",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.FinanceDepartment.Receipt.Date",
+          "FieldName": "Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.FinanceDepartment.Receipt.PaymentMethod",
+          "FieldName": "PaymentMethod",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#2767e6"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "y"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.FinanceDepartment.Receipt.CardNumber",
+          "FieldName": "CardNumber",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#9c9ada"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.FinanceDepartment.Receipt.ItemsPurchased",
+          "FieldName": "ItemsPurchased",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#a4bc97"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.FinanceDepartment.Receipt.Total",
+          "FieldName": "Total",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#7044f6"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ],
+      "Metadata": [
+        {
+          "Key": "OCRConfidenceThreshold",
+          "Value": "0.9"
+        },
+        {
+          "Key": "DateDisplayFormat",
+          "Value": "yyyy-MM-dd"
+        },
+        {
+          "Key": "NumberDisplayFormat",
+          "Value": "{\"DecimalSeparator\":\".\",\"ThousandsSeparator\":\"\"}"
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "AcmeCore.FinanceDepartment.BankStatement",
+      "Group": "AcmeCore",
+      "Category": "FinanceDepartment",
+      "Name": "BankStatement",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "AcmeCore.FinanceDepartment.BankStatement.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "AcmeCore.FinanceDepartment.BankStatement.AccountHolderName",
+          "FieldName": "AccountHolderName",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.FinanceDepartment.BankStatement.AccountNumber",
+          "FieldName": "AccountNumber",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.FinanceDepartment.BankStatement.AccountType",
+          "FieldName": "AccountType",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "y"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.FinanceDepartment.BankStatement.BranchName",
+          "FieldName": "BranchName",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.FinanceDepartment.BankStatement.ClosingBalance",
+          "FieldName": "ClosingBalance",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#d2dc22"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.FinanceDepartment.BankStatement.TransactionHistory",
+          "FieldName": "TransactionHistory",
+          "IsMultiValue": false,
+          "Type": "Table",
+          "DeriveFieldsFormat": "",
+          "Components": [
+            {
+              "FieldId": "AcmeCore.FinanceDepartment.BankStatement.TransactionHistory.Date",
+              "FieldName": "Date",
+              "IsMultiValue": false,
+              "Type": "Date",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [
+                {
+                  "Key": "ExtractionConfidenceThreshold",
+                  "Value": "0.9"
+                }
+              ],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "AcmeCore.FinanceDepartment.BankStatement.TransactionHistory.TransactionID",
+              "FieldName": "TransactionID",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [
+                {
+                  "Key": "ExtractionConfidenceThreshold",
+                  "Value": "0.9"
+                }
+              ],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "AcmeCore.FinanceDepartment.BankStatement.TransactionHistory.Description",
+              "FieldName": "Description",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [
+                {
+                  "Key": "ExtractionConfidenceThreshold",
+                  "Value": "0.9"
+                }
+              ],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "AcmeCore.FinanceDepartment.BankStatement.TransactionHistory.Balance",
+              "FieldName": "Balance",
+              "IsMultiValue": false,
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [
+                {
+                  "Key": "ExtractionConfidenceThreshold",
+                  "Value": "0.9"
+                }
+              ],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            }
+          ],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#5cd483"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ],
+      "Metadata": [
+        {
+          "Key": "OCRConfidenceThreshold",
+          "Value": "0.9"
+        },
+        {
+          "Key": "DateDisplayFormat",
+          "Value": "yyyy-MM-dd"
+        },
+        {
+          "Key": "NumberDisplayFormat",
+          "Value": "{\"DecimalSeparator\":\".\",\"ThousandsSeparator\":\"\"}"
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "AcmeCore.HRDepartment.Payslip",
+      "Group": "AcmeCore",
+      "Category": "HRDepartment",
+      "Name": "Payslip",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "AcmeCore.HRDepartment.Payslip.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "AcmeCore.HRDepartment.Payslip.EmployeeName",
+          "FieldName": "EmployeeName",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.HRDepartment.Payslip.EmployeeID",
+          "FieldName": "EmployeeID",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.HRDepartment.Payslip.JobTitle",
+          "FieldName": "JobTitle",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "j"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.HRDepartment.Payslip.Department",
+          "FieldName": "Department",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.HRDepartment.Payslip.PayPeriod",
+          "FieldName": "PayPeriod",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#d2d550"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "y"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.HRDepartment.Payslip.PayDate",
+          "FieldName": "PayDate",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#db996d"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.HRDepartment.Payslip.WorkLocation",
+          "FieldName": "WorkLocation",
+          "IsMultiValue": false,
+          "Type": "Address",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#3ddb77"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "w"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.HRDepartment.Payslip.Manager",
+          "FieldName": "Manager",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#cd93a8"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "g"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.HRDepartment.Payslip.NetPayment",
+          "FieldName": "NetPayment",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#bc35e7"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ],
+      "Metadata": [
+        {
+          "Key": "OCRConfidenceThreshold",
+          "Value": "0.9"
+        },
+        {
+          "Key": "DateDisplayFormat",
+          "Value": "yyyy-MM-dd"
+        },
+        {
+          "Key": "NumberDisplayFormat",
+          "Value": "{\"DecimalSeparator\":\".\",\"ThousandsSeparator\":\"\"}"
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "AcmeCore.HealthCareDepartment.MedicalClaim",
+      "Group": "AcmeCore",
+      "Category": "HealthCareDepartment",
+      "Name": "MedicalClaim",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "AcmeCore.HealthCareDepartment.MedicalClaim.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "AcmeCore.HealthCareDepartment.MedicalClaim.PatientName",
+          "FieldName": "PatientName",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.HealthCareDepartment.MedicalClaim.MemberID",
+          "FieldName": "MemberID",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ],
+      "Metadata": [
+        {
+          "Key": "OCRConfidenceThreshold",
+          "Value": "0.9"
+        },
+        {
+          "Key": "DateDisplayFormat",
+          "Value": "yyyy-MM-dd"
+        },
+        {
+          "Key": "NumberDisplayFormat",
+          "Value": "{\"DecimalSeparator\":\".\",\"ThousandsSeparator\":\"\"}"
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "AcmeCore.LogisticsDepartment.ShippingOrder",
+      "Group": "AcmeCore",
+      "Category": "LogisticsDepartment",
+      "Name": "ShippingOrder",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "AcmeCore.LogisticsDepartment.ShippingOrder.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "AcmeCore.LogisticsDepartment.ShippingOrder.ShipmentID",
+          "FieldName": "ShipmentID",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.LogisticsDepartment.ShippingOrder.OrderReference",
+          "FieldName": "OrderReference",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ],
+      "Metadata": [
+        {
+          "Key": "OCRConfidenceThreshold",
+          "Value": "0.9"
+        },
+        {
+          "Key": "DateDisplayFormat",
+          "Value": "yyyy-MM-dd"
+        },
+        {
+          "Key": "NumberDisplayFormat",
+          "Value": "{\"DecimalSeparator\":\".\",\"ThousandsSeparator\":\"\"}"
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "AcmeCore.FacilitiesDepartment.UtilityBill",
+      "Group": "AcmeCore",
+      "Category": "FacilitiesDepartment",
+      "Name": "UtilityBill",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "AcmeCore.FacilitiesDepartment.UtilityBill.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "AcmeCore.FacilitiesDepartment.UtilityBill.AccountNumber",
+          "FieldName": "AccountNumber",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.FacilitiesDepartment.UtilityBill.CustomerName",
+          "FieldName": "CustomerName",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AcmeCore.FacilitiesDepartment.UtilityBill.AmountDue",
+          "FieldName": "AmountDue",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ],
+      "Metadata": [
+        {
+          "Key": "OCRConfidenceThreshold",
+          "Value": "0.9"
+        },
+        {
+          "Key": "DateDisplayFormat",
+          "Value": "yyyy-MM-dd"
+        },
+        {
+          "Key": "NumberDisplayFormat",
+          "Value": "{\"DecimalSeparator\":\".\",\"ThousandsSeparator\":\"\"}"
+        }
+      ]
+    }
+  ],
+  "Groups": [
+    {
+      "Name": "AcmeCore",
+      "Categories": [
+        "FinanceDepartment",
+        "HRDepartment",
+        "HealthCareDepartment",
+        "LogisticsDepartment",
+        "FacilitiesDepartment"
+      ]
+    }
+  ],
+  "SupportedLanguages": [
+    {
+      "Name": "Undetermined Language",
+      "Code": "und"
+    },
+    {
+      "Name": "Bulgarian",
+      "Code": "bul"
+    },
+    {
+      "Name": "Cantonese",
+      "Code": "yue"
+    },
+    {
+      "Name": "Danish",
+      "Code": "dan"
+    },
+    {
+      "Name": "Dutch",
+      "Code": "nld"
+    },
+    {
+      "Name": "English",
+      "Code": "eng"
+    },
+    {
+      "Name": "French",
+      "Code": "fra"
+    },
+    {
+      "Name": "Georgian",
+      "Code": "kat"
+    },
+    {
+      "Name": "German",
+      "Code": "deu"
+    },
+    {
+      "Name": "Greek",
+      "Code": "ell"
+    },
+    {
+      "Name": "Hebrew",
+      "Code": "heb"
+    },
+    {
+      "Name": "Hindi",
+      "Code": "hin"
+    },
+    {
+      "Name": "Italian",
+      "Code": "ita"
+    },
+    {
+      "Name": "Japanese",
+      "Code": "jpn"
+    },
+    {
+      "Name": "Korean",
+      "Code": "kor"
+    },
+    {
+      "Name": "Macedonian",
+      "Code": "mkd"
+    },
+    {
+      "Name": "Mandarin",
+      "Code": "zho"
+    },
+    {
+      "Name": "Marathi",
+      "Code": "mar"
+    },
+    {
+      "Name": "Norwegian",
+      "Code": "nor"
+    },
+    {
+      "Name": "Polish",
+      "Code": "pol"
+    },
+    {
+      "Name": "Portuguese",
+      "Code": "por"
+    },
+    {
+      "Name": "Romanian",
+      "Code": "ron"
+    },
+    {
+      "Name": "Russian",
+      "Code": "rus"
+    },
+    {
+      "Name": "Serbian",
+      "Code": "srp"
+    },
+    {
+      "Name": "Spanish",
+      "Code": "spa"
+    },
+    {
+      "Name": "Swedish",
+      "Code": "swe"
+    },
+    {
+      "Name": "Telugu",
+      "Code": "tel"
+    },
+    {
+      "Name": "Turkish",
+      "Code": "tur"
+    }
+  ],
+  "ReportAsExceptionSettings": {
+    "ExceptionReasonOptions": []
+  }
+}
